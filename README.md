@@ -1,3 +1,25 @@
+# Introduction
+
+This project is a Smart Contract coded in Solidity, comes under blockchain concept. I created a smart contract and using that smart contract (custom token with custom symbol) with the help of remix IDE obtained Contract ABI. Using the same smart contract this project can make token transaction using metamask in etherium using Ropsten test network.
+
+# This project used following Frameworks/ Library and tools:
+
+### `ReactJS`
+### `Solidity Language`
+### `Open Zeppelin`
+### `Web3.js`
+### `Metamask`
+
+# How To Start This Project
+
+## 1. Install Node.js(npm) (use version 12)
+## 2. Go to the project folder and open cmd and run react project
+### `npm start`
+## 3. Install Metamask chrome extension & Create accounts
+## 4. Start sending tokens
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
