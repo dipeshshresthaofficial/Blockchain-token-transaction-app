@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .App {
   text-align: center;
 }
@@ -27,6 +28,76 @@
 .App-link {
   color: #61dafb;
 }
+
+/* Custom CSS Start*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background: #403B4A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+}
+
+#header{
+  border-bottom: 2px solid white;
+}
+
+#account-address-container{
+  margin: 20px 0;
+}
+
+.account-values{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: #F95A20;
+}
+
+#balance-container{
+  text-align: left;
+  margin-left: 410px;
+}
+
+#balance{
+  margin-left: 68px;
+}
+#form-container{
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  transform: translate(-50%,0);
+  width: 800px;
+}
+#form-container input{
+ width: 40%;
+  padding: 5px 10px;
+ margin-bottom: 20px !important;
+  text-decoration: none;
+  outline: none;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-weight: bolder;
+}
+#submit-btn{
+  width: 20% !important;
+  cursor: pointer;
+}
+
+#result-container{
+  text-align: left;
+  display: flex;
+}
+
+/* Custom CSS end */
 
 @keyframes App-logo-spin {
   from {
